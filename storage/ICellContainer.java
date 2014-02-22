@@ -18,7 +18,7 @@ public interface ICellContainer extends IActionHost
 	 * 
 	 * @return a valid list of handlers, NEVER NULL
 	 */
-	List<IMEInventoryHandler> getCellArray(StorageChannel channel);
+	<T extends IAEStack> List<IMEInventoryHandler<T>> getCellArray();
 
 	/**
 	 * the storage's priority.
