@@ -20,11 +20,7 @@ public class MEMonitorHandler<StackType extends IAEStack> implements IMEMonitor<
 {
 
 	private final IMEInventoryHandler<StackType> internalHandler;
-<<<<<<< HEAD
-	private final IItemList<StackType> cachedList = AEApi.instance().storage().createItemList();
-=======
 	private final IItemList<StackType> cachedList;
->>>>>>> c1209f237e11b6281654c96677e782e15ef4deba
 	private final HashMap<IMEMonitorHandlerReceiver<StackType>, Object> listeners = new HashMap<IMEMonitorHandlerReceiver<StackType>, Object>();
 
 	protected boolean hasChanged = true;
