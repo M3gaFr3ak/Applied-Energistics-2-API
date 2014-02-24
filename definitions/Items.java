@@ -41,6 +41,6 @@ public class Items
 	public AEItemDefinition itemSpatialCell16;
 	public AEItemDefinition itemSpatialCell128;
 
-	public AEItemDefinition itemEncodedAsemblerPattern;
 	public AEItemDefinition itemFacade;
+	public AEItemDefinition itemCrystalSeed;
 }
